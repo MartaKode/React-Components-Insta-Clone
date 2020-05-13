@@ -21,8 +21,12 @@
 
 .social-wrapper {
   display: flex;
+  
 }
 
 .social {
   width: 50px;
+  display:flex;
+  justify-content: space-evenly;
+  align-content: space-around;
 }
