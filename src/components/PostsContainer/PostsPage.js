@@ -7,7 +7,6 @@ import "./Posts.css";
  import data from "../../dummy-data.js";
 //console.log(data)
 
-
 const PostsPage = () => {
   // set up state for your data
   const [usersData , setUsersData] = useState(data)
@@ -27,3 +26,5 @@ const PostsPage = () => {
 };
 
 export default PostsPage;
+
+
